@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAC Movie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  
+  
+    
+</head>
+<body class="contenedor fondo"> 
+  <header class="header">
+    <nav class="navegacion">
+        <a class="animate__animated animate__bounce">
+            <i class="fas fa-film" aria-hidden="true"></i>
+            <img class="logo" src="cinema.png">
+            <span>CAC-MOVIES</span>
+        </a>
+      
+        <ul class="listaNav">
+            <li class="listaItem"><a class="linkNav" href="index.html">Tendencias</a></li>
+            <li class="listaItem"><a class="linkNav" href="registro.php">Registrarse</a></li>
+            <li class="listaItem"><a class="linkNav iniciarSesion" href="iniciodesesion.html">Iniciar Sesión</a></li>
+            <li class="listaItem"><a class="linkNav api" href="api.html">API</a></li>
+
+        </ul>
+       </nav>
+</header>
+
+
+  <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</div>
+<div class="tablaPelis" id="tablaPelis">
+<!--Tabla 4 columnas varias filas de colores-->
+<table  style="width: 80%; margin: 0 auto;">
+    <colgroup span="1" width="10%"></colgroup>
+    <colgroup span="1" width="10%"></colgroup>
+    <colgroup span="1" width="30%"></colgroup>
+    <colgroup span="1" width="10%"></colgroup>
+    <colgroup span="1" width="10%"></colgroup>
+    <colgroup span="1" width="30%"></colgroup>
+    <tbody>
+        <tr>
+            <td class="tituloSection">Nombre</td>
+            <td class="tituloSection">Director</td>
+            <td class="tituloSection">Descripción</td>
+            <td class="tituloSection">Género</td>
+            <td class="tituloSection">Año</td>
+            <td class="tituloSection">Reseña</td>
+        </tr>
+
+        <tr>
+            <td class="texto-margen-tabla texto-centrado"><name="nombre"  id="nombre" ></td>
+            <td class="texto-margen-tabla texto-centrado"><name="director"  id="director" ></td>
+            <td class="texto-margen-tabla"><name="descripcion"  id="descripcion" ></td>
+            <td class="texto-margen-tabla texto-centrado"><name="genero"  id="genero" ></td>
+            <td class="texto-margen-tabla texto-centrado"><name="anio"  id="anio" ></td>
+            <td class="texto-margen-tabla"><name="resena"  id="resena" ></td>
+        </tr>
+        
+    </tbody>
+</table>
+
+
+</div>
+</body>
+</html>
